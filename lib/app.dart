@@ -1,4 +1,4 @@
-import 'package:api_bloc_practice/presentation/features/home/home_screen.dart';
+import 'package:api_bloc_practice/presentation/features/home/view/home_screen.dart';
 import 'package:flutter/material.dart';
 
 class ApiBlocPractice extends StatelessWidget {
