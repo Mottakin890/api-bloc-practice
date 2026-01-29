@@ -11,7 +11,7 @@ class ApiBlocPractice extends StatelessWidget {
   Widget build(BuildContext context) {
     return MultiBlocProvider(
       providers: [
-        BlocProvider(create: (context)=> UsersCubit(apiService: ApiService())),
+        BlocProvider(create: (context) => UsersCubit(apiService: ApiService())),
       ],
       child: MaterialApp(home: HomeScreen(), debugShowCheckedModeBanner: false),
     );
